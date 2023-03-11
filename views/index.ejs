@@ -29,12 +29,12 @@
                             
                             <div class="row no-margin">
                                  <div class="col-lg-12 col-md-3 col-sm-3 col-12 no-padding">
-                                     <img src="assets/images/z4137000137166_afe6c36ae39bdc4ff167cfaa7f465bf2.jpg" alt="">
+                                     <img src="<%= profile.avatar %>" alt="">
                                  </div>
                                  <div class="col-lg-12 col-md-9 col-sm-9 ccol-12 baci-cc no-padding">
                                      <div class="basic-detail no-padding">
                                            <h2><%= profile.name %></h2>
-                                           <p>Web Designer / Web Develper</p>
+                                           <p><%= profile.job %></p>
                                            <span >Freelancer Available</span>
                                       </div>
                                  </div>
@@ -101,12 +101,12 @@
                                               
                                                   <table class="addrss-list">
                                                       <tr>
-                                                          <th>E-mail</th>
-                                                          <td>votu10032003@gmail.com</td>
+                                                          <th>Email</th>
+                                                          <td><%= profile.email %></td>
                                                       </tr>
                                                       <tr>
                                                           <th>Phone</th>
-                                                          <td>+944780090</td>
+                                                          <td><%= profile.phone %></td>
                                                       </tr>
                                                       <tr>
                                                           <th>Date of birth</th>

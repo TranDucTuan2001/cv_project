@@ -4,7 +4,7 @@ mongoose.set('strictQuery', true);
 
 async function connect() {
   try {
-    await mongoose.connect('mongodb+srv://csdl:1GOd0eI42RWUEHIB@data.scdy9cu.mongodb.net/test');
+    await mongoose.connect('mongodb+srv://csdl:1GOd0eI42RWUEHIB@data.scdy9cu.mongodb.net/dataCV1');
     console.log('Database connected!!');
   } catch (error) {
     console.log('Database not connected!!');

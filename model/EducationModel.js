@@ -4,10 +4,10 @@ var Schema = mongoose.Schema;
 
 var educationSchema = new Schema({
   startDate: {
-    type: Date,
+    type: String,
   },
   endDate: {
-    type: Date,
+    type: String,
   },
   school: {
     type: String,

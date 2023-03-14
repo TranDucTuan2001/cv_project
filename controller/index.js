@@ -7,14 +7,13 @@ async function index(req, res) {
   let skills = await Skill.find();
   let education = await Education.findOne();
   let profile = await Profile.findOne();
-  let experience = await Experience.findOne();
-  console.log(profile);
+  let experiences = await Experience.find();
   res.render("index", {
     title: "MyCv",
     skills: skills,
     education: education,
     profile: profile,
-    experience: experience,
+    experiences: experiences,
   });
 }
 module.exports = {

@@ -16,11 +16,14 @@ var profile = new Schema({
     type: String,
   },
   phone: {
-    type: Number,
+    type: String,
   },
   email: {
     type: String,
   },
+  webside:{
+    type: String
+  }
 });
 
 var CommentModel = mongoose.model("profiles", profile);

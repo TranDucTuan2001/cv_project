@@ -4,16 +4,19 @@ var Schema = mongoose.Schema;
 
 var experience = new Schema({
   startDate: {
-    type: Date,
+    type: String,
   },
   endDate: {
-    type: Date,
+    type: String,
   },
   company: {
     type: String,
   },
   desc: {
     type: String,
+  },
+  name:{
+    type: String
   },
 });
 
